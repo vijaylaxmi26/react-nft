@@ -4,7 +4,9 @@ import "./Header.css";
 const Header = () => {
   return (
     <div className="header">
-      <h2>Helloooooooooooo</h2>
+      <div className="logoContainer">
+        <img src={punklogo} className="punklogo" alt="" />
+      </div>
     </div>
   );
 };
